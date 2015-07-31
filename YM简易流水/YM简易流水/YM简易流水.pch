@@ -1,0 +1,18 @@
+//
+//  YM简易流水.pch
+//  YM简易流水
+//
+//  Created by Yeahming on 15/7/26.
+//  Copyright © 2015年 Yeahming. All rights reserved.
+//
+
+#ifdef __OBJC__
+#define YMmargin 5
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+#import "MBProgressHUD+XMG.h"
+#import "UIImage+YMImage.h"
+#import "YMCakeView.h"
+#endif
+///Users/yeahming/Desktop/项目重写汇总/YM简易流水/YM简易流水/YM简易流水.pch
