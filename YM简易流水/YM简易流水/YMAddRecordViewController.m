@@ -142,7 +142,7 @@
 }
 
 // 点击view，取消编辑模式
-- (void)touchesBegan:(nonnull NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event
+- (void)touchesBegan:(nonnull NSSet *)touches withEvent:(nullable UIEvent *)event
 {
     [self.view endEditing:YES];
 }

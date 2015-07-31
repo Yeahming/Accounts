@@ -75,7 +75,7 @@ static NSString *const YMPassWord = @"03752";
 }
 
 // 监听手势移动
-- (void)touchesMoved:(nonnull NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event
+- (void)touchesMoved:(nonnull NSSet *)touches withEvent:(nullable UIEvent *)event
 {
     [self.path removeAllPoints];
     [self setNeedsDisplay];
@@ -119,7 +119,7 @@ static NSString *const YMPassWord = @"03752";
     }
     return  [super hitTest:point withEvent:event];
 }
-- (void)touchesEnded:(nonnull NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event
+- (void)touchesEnded:(nonnull NSSet *)touches withEvent:(nullable UIEvent *)event
 {
     // 记录用户解锁密码// 正确密码 03752
     NSMutableString *passWord = [NSMutableString string];

@@ -36,7 +36,6 @@
 		B8FB79A91B63677D00FCFA34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FB79A81B63677D00FCFA34 /* main.m */; };
 		B8FB79AC1B63677D00FCFA34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FB79AB1B63677D00FCFA34 /* AppDelegate.m */; };
 		B8FB79B41B63677D00FCFA34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8FB79B31B63677D00FCFA34 /* Assets.xcassets */; };
-		B8FB79B71B63677D00FCFA34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FB79B51B63677D00FCFA34 /* LaunchScreen.storyboard */; };
 		B8FB79C21B63677D00FCFA34 /* YM____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FB79C11B63677D00FCFA34 /* YM____Tests.m */; };
 		B8FB79CD1B63677D00FCFA34 /* YM____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FB79CC1B63677D00FCFA34 /* YM____UITests.m */; };
 /* End PBXBuildFile section */
@@ -120,7 +119,6 @@
 		B8FB79AA1B63677D00FCFA34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8FB79AB1B63677D00FCFA34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B8FB79B31B63677D00FCFA34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B8FB79B61B63677D00FCFA34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8FB79B81B63677D00FCFA34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8FB79BD1B63677D00FCFA34 /* YM简易流水Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YM简易流水Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FB79C11B63677D00FCFA34 /* YM____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YM____Tests.m"; sourceTree = "<group>"; };
@@ -368,7 +366,6 @@
 			children = (
 				B83863AF1B636C4F00E9B952 /* Classes */,
 				B8FB79B31B63677D00FCFA34 /* Assets.xcassets */,
-				B8FB79B51B63677D00FCFA34 /* LaunchScreen.storyboard */,
 				B8FB79B81B63677D00FCFA34 /* Info.plist */,
 				B8FB79A71B63677D00FCFA34 /* Supporting Files */,
 				B8F32EE61B65348D0006B8D9 /* YM简易流水.pch */,
@@ -511,7 +508,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B80654A51B6698DB00243C72 /* YMAddRecordViewController.storyboard in Resources */,
-				B8FB79B71B63677D00FCFA34 /* LaunchScreen.storyboard in Resources */,
 				B8FB79B41B63677D00FCFA34 /* Assets.xcassets in Resources */,
 				B8F32F611B65352E0006B8D9 /* MBProgressHUD.bundle in Resources */,
 			);
@@ -597,17 +593,6 @@
 			targetProxy = B8FB79C91B63677D00FCFA34 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B8FB79B51B63677D00FCFA34 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B8FB79B61B63677D00FCFA34 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B8FB79CF1B63677D00FCFA34 /* Debug */ = {

@@ -109,7 +109,7 @@
 {
     
 }
-- (nullable NSArray<UITableViewRowAction *> *)tableView:(nonnull UITableView *)tableView editActionsForRowAtIndexPath:(nonnull NSIndexPath *)indexPath
+- (nullable NSArray *)tableView:(nonnull UITableView *)tableView editActionsForRowAtIndexPath:(nonnull NSIndexPath *)indexPath
 {
     NSMutableArray *rowActionArray = [NSMutableArray array];
     
